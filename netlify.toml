@@ -1,5 +1,5 @@
 [build]
-  command = "build:ssr"
+  command = "npm run build:ssr"
 
 [[redirects]]
   from = "/*"
