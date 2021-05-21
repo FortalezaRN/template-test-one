@@ -1,0 +1,34 @@
+<nav class="container" [ngClass]="{'open': isOpen}">
+  <fa-icon [icon]=" isOpen ? faTimes : faBars" class="btn-menu" (click)="isOpen=!isOpen"></fa-icon>
+  <div class="imagem" [ngClass]="{'open': isOpen}">
+    <img src="https://placeimg.com/100/100/people" alt="foto">
+  </div>
+  <div class="content">
+    <ul>
+      <li>
+        <a routerLink="/dashboard" [ngClass]="{'active': url === '/dashboard'}">
+          <fa-icon [icon]="faHome"></fa-icon>
+          <h5>Dashboard</h5>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/selic" [ngClass]="{'active': url === '/selic'}">
+          <fa-icon [icon]="faPercentage"></fa-icon>
+          <h5>Selic</h5>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/dashboard">
+          <fa-icon [icon]="faCreditCard"></fa-icon>
+          <h5>PIX</h5>
+        </a>
+      </li>
+      <li>
+        <a routerLink="/dashboard">
+          <fa-icon [icon]="faExchangeAlt"></fa-icon>
+          <h5>Transações</h5>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

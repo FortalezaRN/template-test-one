@@ -1,0 +1,145 @@
+<div class="d-flex">
+  <app-navbar></app-navbar>
+  <div class="container d-flex">
+
+    <div class="chart-1">
+      <h4>Reserva SPR</h4>
+      <canvas baseChart class="graphic"
+        [datasets]="barChartInboundData"
+        [labels]="barChartInboundLabels"
+        [options]="barChartOptions"
+        [plugins]="barChartPlugins"
+        [legend]="barChartLegend"
+        [chartType]="barChartType"
+        [colors]="chartInboundColors">
+      </canvas>
+    </div>
+    <div class="chart-1 chart-2">
+      <h4>SELIC</h4>
+      <canvas baseChart
+        [data]="pieChartData"
+        [labels]="pieChartLabels"
+        [chartType]="pieChartType"
+        [options]="pieChartOptions"
+        [plugins]="pieChartPlugins"
+        [colors]="pieChartColors"
+        [legend]="pieChartLegend">
+      </canvas>
+    </div>
+    <div class="chart-1 last">
+      <h4>Últimas Transações</h4>
+      <table>
+        <!-- <thead>
+          <th>Estado</th>
+          <th>Evento</th>
+          <th>Cod. Cedente</th>
+          <th>Nome Cedente</th>
+          <th>Tipo</th>
+          <th>Financeiro</th>
+        </thead> -->
+        <tbody>
+          <tr>
+            <td>
+              Confirmado
+            </td>
+            <td>
+              Op. Selic-Termo
+            </td>
+            <td>
+              0000213254
+            </td>
+            <td>
+              BTG PACTUAL CTVM S A
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              R$ 123.534.123,56
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Confirmado
+            </td>
+            <td>
+              Op. Selic-Termo
+            </td>
+            <td>
+              0000213254
+            </td>
+            <td>
+              BTG PACTUAL CTVM S A
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              R$ 123.534.123,56
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Confirmado
+            </td>
+            <td>
+              Op. Selic-Termo
+            </td>
+            <td>
+              0000213254
+            </td>
+            <td>
+              BTG PACTUAL CTVM S A
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              R$ 123.534.123,56
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Confirmado
+            </td>
+            <td>
+              Op. Selic-Termo
+            </td>
+            <td>
+              0000213254
+            </td>
+            <td>
+              BTG PACTUAL CTVM S A
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              R$ 123.534.123,56
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Confirmado
+            </td>
+            <td>
+              Op. Selic-Termo
+            </td>
+            <td>
+              0000213254
+            </td>
+            <td>
+              BTG PACTUAL CTVM S A
+            </td>
+            <td>
+              0
+            </td>
+            <td>
+              R$ 123.534.123,56
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

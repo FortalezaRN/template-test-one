@@ -1,0 +1,396 @@
+<div class="d-flex">
+  <app-navbar></app-navbar>
+  <div class="container d-flex">
+    <div class="chart-1 last">
+      <h4>SELIC</h4>
+      <div class="table">
+        <table>
+          <thead>
+            <th>Ações</th>
+            <th>Estado</th>
+            <th>Evento</th>
+            <th>Cod. Cedente</th>
+            <th>Nome Cedente</th>
+            <th>Tipo</th>
+            <th>Financeiro</th>
+            <th>Estado</th>
+            <th>Evento</th>
+            <th>Cod. Cedente</th>
+            <th>Nome Cedente</th>
+            <th>Tipo</th>
+            <th>Financeiro</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <fa-icon [icon]="faEllipsisV" (click)="showMenu(0, true)" class="headcol"></fa-icon>
+                <div class="menu" *ngIf="isShow[0]">
+                  <ul>
+                    <li (click)="showMenu(0, false)">
+                      <fa-icon [icon]="faShareSquare"></fa-icon>
+                      <p>Enviar</p>
+                    </li>
+                    <li (click)="showMenu(0, false)">
+                      <fa-icon [icon]="faDownload"></fa-icon>
+                      <p>Baixar</p>
+                    </li>
+                    <li (click)="showMenu(0, false)">
+                      <fa-icon [icon]="faBug"></fa-icon>
+                      <p>Reportar</p>
+                    </li>
+                    <li (click)="showMenu(0, false)">
+                      <fa-icon [icon]="faBan"></fa-icon>
+                      <p>Cancelar</p>
+                    </li>
+                  </ul>
+                </div>
+              </td>
+              <td>
+                Confirmado
+              </td>
+              <td>
+                Op. Selic-Termo
+              </td>
+              <td>
+                0000213254
+              </td>
+              <td>
+                BTG PACTUAL CTVM S A
+              </td>
+              <td>
+                0
+              </td>
+              <td>
+                R$ 123.534.123,56
+              </td>
+              <td>
+                Confirmado
+              </td>
+              <td>
+                Op. Selic-Termo
+              </td>
+              <td>
+                0000213254
+              </td>
+              <td>
+                BTG PACTUAL CTVM S A
+              </td>
+              <td>
+                0
+              </td>
+              <td>
+                R$ 123.534.123,56
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <fa-icon [icon]="faEllipsisV" (click)="showMenu(1, true)" class="headcol"></fa-icon>
+                <div class="menu" *ngIf="isShow[1]">
+                  <ul>
+                    <li (click)="showMenu(1, false)">
+                      <fa-icon [icon]="faShareSquare"></fa-icon>
+                      <p>Enviar</p>
+                    </li>
+                    <li (click)="showMenu(1, false)">
+                      <fa-icon [icon]="faDownload"></fa-icon>
+                      <p>Baixar</p>
+                    </li>
+                    <li (click)="showMenu(1, false)">
+                      <fa-icon [icon]="faBug"></fa-icon>
+                      <p>Reportar</p>
+                    </li>
+                    <li (click)="showMenu(1, false)">
+                      <fa-icon [icon]="faBan"></fa-icon>
+                      <p>Cancelar</p>
+                    </li>
+                  </ul>
+                </div>
+              </td>
+              <td>
+                Confirmado
+              </td>
+              <td>
+                Op. Selic-Termo
+              </td>
+              <td>
+                0000213254
+              </td>
+              <td>
+                BTG PACTUAL CTVM S A
+              </td>
+              <td>
+                0
+              </td>
+              <td>
+                R$ 123.534.123,56
+              </td>
+              <td>
+                Confirmado
+              </td>
+              <td>
+                Op. Selic-Termo
+              </td>
+              <td>
+                0000213254
+              </td>
+              <td>
+                BTG PACTUAL CTVM S A
+              </td>
+              <td>
+                0
+              </td>
+              <td>
+                R$ 123.534.123,56
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <fa-icon [icon]="faEllipsisV" (click)="showMenu(2, true)" class="headcol"></fa-icon>
+                <div class="menu" *ngIf="isShow[2]">
+                  <ul>
+                    <li (click)="showMenu(2, false)">
+                      <fa-icon [icon]="faShareSquare"></fa-icon>
+                      <p>Enviar</p>
+                    </li>
+                    <li (click)="showMenu(2, false)">
+                      <fa-icon [icon]="faDownload"></fa-icon>
+                      <p>Baixar</p>
+                    </li>
+                    <li (click)="showMenu(2, false)">
+                      <fa-icon [icon]="faBug"></fa-icon>
+                      <p>Reportar</p>
+                    </li>
+                    <li (click)="showMenu(2, false)">
+                      <fa-icon [icon]="faBan"></fa-icon>
+                      <p>Cancelar</p>
+                    </li>
+                  </ul>
+                </div>
+              </td>
+              <td>
+                Confirmado
+              </td>
+              <td>
+                Op. Selic-Termo
+              </td>
+              <td>
+                0000213254
+              </td>
+              <td>
+                BTG PACTUAL CTVM S A
+              </td>
+              <td>
+                0
+              </td>
+              <td>
+                R$ 123.534.123,56
+              </td>
+              <td>
+                Confirmado
+              </td>
+              <td>
+                Op. Selic-Termo
+              </td>
+              <td>
+                0000213254
+              </td>
+              <td>
+                BTG PACTUAL CTVM S A
+              </td>
+              <td>
+                0
+              </td>
+              <td>
+                R$ 123.534.123,56
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <fa-icon [icon]="faEllipsisV" (click)="showMenu(3, true)" class="headcol"></fa-icon>
+                <div class="menu" *ngIf="isShow[3]">
+                  <ul>
+                    <li (click)="showMenu(3, false)">
+                      <fa-icon [icon]="faShareSquare"></fa-icon>
+                      <p>Enviar</p>
+                    </li>
+                    <li (click)="showMenu(3, false)">
+                      <fa-icon [icon]="faDownload"></fa-icon>
+                      <p>Baixar</p>
+                    </li>
+                    <li (click)="showMenu(3, false)">
+                      <fa-icon [icon]="faBug"></fa-icon>
+                      <p>Reportar</p>
+                    </li>
+                    <li (click)="showMenu(3, false)">
+                      <fa-icon [icon]="faBan"></fa-icon>
+                      <p>Cancelar</p>
+                    </li>
+                  </ul>
+                </div>
+              </td>
+              <td>
+                Confirmado
+              </td>
+              <td>
+                Op. Selic-Termo
+              </td>
+              <td>
+                0000213254
+              </td>
+              <td>
+                BTG PACTUAL CTVM S A
+              </td>
+              <td>
+                0
+              </td>
+              <td>
+                R$ 123.534.123,56
+              </td>
+              <td>
+                Confirmado
+              </td>
+              <td>
+                Op. Selic-Termo
+              </td>
+              <td>
+                0000213254
+              </td>
+              <td>
+                BTG PACTUAL CTVM S A
+              </td>
+              <td>
+                0
+              </td>
+              <td>
+                R$ 123.534.123,56
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <fa-icon [icon]="faEllipsisV" (click)="showMenu(4, true)" class="headcol"></fa-icon>
+                <div class="menu" *ngIf="isShow[4]">
+                  <ul>
+                    <li (click)="showMenu(4, false)">
+                      <fa-icon [icon]="faShareSquare"></fa-icon>
+                      <p>Enviar</p>
+                    </li>
+                    <li (click)="showMenu(4, false)">
+                      <fa-icon [icon]="faDownload"></fa-icon>
+                      <p>Baixar</p>
+                    </li>
+                    <li (click)="showMenu(4, false)">
+                      <fa-icon [icon]="faBug"></fa-icon>
+                      <p>Reportar</p>
+                    </li>
+                    <li (click)="showMenu(4, false)">
+                      <fa-icon [icon]="faBan"></fa-icon>
+                      <p>Cancelar</p>
+                    </li>
+                  </ul>
+                </div>
+              </td>
+              <td>
+                Confirmado
+              </td>
+              <td>
+                Op. Selic-Termo
+              </td>
+              <td>
+                0000213254
+              </td>
+              <td>
+                BTG PACTUAL CTVM S A
+              </td>
+              <td>
+                0
+              </td>
+              <td>
+                R$ 123.534.123,56
+              </td>
+              <td>
+                Confirmado
+              </td>
+              <td>
+                Op. Selic-Termo
+              </td>
+              <td>
+                0000213254
+              </td>
+              <td>
+                BTG PACTUAL CTVM S A
+              </td>
+              <td>
+                0
+              </td>
+              <td>
+                R$ 123.534.123,56
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <fa-icon [icon]="faEllipsisV" (click)="showMenu(5, true)" class="headcol"></fa-icon>
+                <div class="menu" *ngIf="isShow[5]">
+                  <ul>
+                    <li (click)="showMenu(5, false)">
+                      <fa-icon [icon]="faShareSquare"></fa-icon>
+                      <p>Enviar</p>
+                    </li>
+                    <li (click)="showMenu(5, false)">
+                      <fa-icon [icon]="faDownload"></fa-icon>
+                      <p>Baixar</p>
+                    </li>
+                    <li (click)="showMenu(5, false)">
+                      <fa-icon [icon]="faBug"></fa-icon>
+                      <p>Reportar</p>
+                    </li>
+                    <li (click)="showMenu(5, false)">
+                      <fa-icon [icon]="faBan"></fa-icon>
+                      <p>Cancelar</p>
+                    </li>
+                  </ul>
+                </div>
+              </td>
+              <td>
+                Confirmado
+              </td>
+              <td>
+                Op. Selic-Termo
+              </td>
+              <td>
+                0000213254
+              </td>
+              <td>
+                BTG PACTUAL CTVM S A
+              </td>
+              <td>
+                0
+              </td>
+              <td>
+                R$ 123.534.123,56
+              </td>
+              <td>
+                Confirmado
+              </td>
+              <td>
+                Op. Selic-Termo
+              </td>
+              <td>
+                0000213254
+              </td>
+              <td>
+                BTG PACTUAL CTVM S A
+              </td>
+              <td>
+                0
+              </td>
+              <td>
+                R$ 123.534.123,56
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</div>
